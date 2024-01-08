@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { NavigationItem } from "./NavigationItem";
 import companyImage from "../../public/Image.png";
@@ -25,9 +26,15 @@ export const Navigation = () => {
             iconPath={item.svgPath}
             buttonTxt={item.name}
             linkRedirect="#"
+            onClick={() => {}}
           />
         ))}
       </div>
+      <NavigationItem
+        baseNav={true}
+        baseNavName="Available credits"
+        availableCredits="222.10"
+      />
     </aside>
   );
 };
