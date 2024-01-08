@@ -18,9 +18,9 @@ export const NavigationItem = ({
   availableCredits,
 }) => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col w-full">
       {dropdown && (
-        <div className="flex gap-[12px] h-[42px] mx-auto items-center w-[192px]">
+        <div className="flex gap-[12px] h-[42px] mx-auto items-center w-full">
           <div className="h-[40px] w-[40px]">
             <Image alt="comapnyImage" src={image} height={39} width={39} />
           </div>
