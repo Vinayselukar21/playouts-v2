@@ -1,13 +1,13 @@
 import React from "react";
 
-const pageNo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+const pageNo = [1, "...", 10, 11, 12, 13, 14, 15, 16, 17, 18];
 
 export const Pagination = () => {
   return (
     <div className="flex flex-col items-center pt-[40px]  w-full">
       <div className="flex gap-[24px] w-[610px] h-[32px]">
         <button className="flex items-center gap-[6px] w-[100px] h-full pl-[6px] pr-[12px] py-[6px] border-[1px] border-[#D9D9D9] rounded-[4px] text-opacity-85 text-[#D9D9D9]">
-          <div className="flex items-center h-[18px] w-[18px]">
+          <div className="flex items-center justify-center h-[18px] w-[18px]">
             <svg
               width="18"
               height="18"
@@ -41,7 +41,7 @@ export const Pagination = () => {
           <p className="font-medium text-[14px] text-[#4D4D4D] leading-[20px] ">
             Next
           </p>
-          <div className="flex items-center h-[18px] w-[18px]">
+          <div className="flex items-center justify-center h-[18px] w-[18px]">
             <svg
               width="6"
               height="12"

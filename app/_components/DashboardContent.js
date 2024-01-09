@@ -5,7 +5,7 @@ import { Pagination } from "./Pagination";
 const numberOfRows = Array.from({ length: 20 }, (_, index) => index);
 export const DashboardContent = () => {
   return (
-    <div className="flex flex-col gap-[32px] absolute top-[96px] w-full">
+    <div className="flex flex-col gap-[32px] absolute top-[96px] h-full w-full">
       <div className="flex flex-col gap-[24px] h-[178px] px-[30px]">
         <div className="flex justify-between gap-[20px] h-[36px] w-full">
           <p className="text-[20px] font-medium leading-[28px] ">Overview</p>
@@ -50,7 +50,7 @@ export const DashboardContent = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-[24px] px-[30px]">
+      <div className="flex flex-col gap-[24px] px-[30px] pb-[30px]">
         <p className="text-[20px] font-medium leading-[28px]">
           Transactions | This Month
         </p>
