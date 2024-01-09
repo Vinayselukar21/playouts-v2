@@ -2,7 +2,7 @@ import React from "react";
 
 export const DashboardHeader = () => {
   return (
-    <div className="flex items-center justify-between gap-[16px] bg-[#FFFFFF] h-[64px] py-[12px] px-[32px] border border-b w-full">
+    <div className="flex items-center justify-between gap-[16px] bg-[#FFFFFF] h-[64px] py-[12px] px-[32px] border border-b sticky top-0 z-50">
       <div className="flex items-center gap-[16px] h-[22px] w-[360px]">
         <div className="w-[77px] h-[22px]">
           <p className="text-[15px] text-bold-400 leading-[22px]">Payments</p>

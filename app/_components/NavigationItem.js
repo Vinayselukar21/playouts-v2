@@ -18,13 +18,13 @@ export const NavigationItem = ({
   availableCredits,
 }) => {
   return (
-    <div className="flex flex-col w-full">
+    <div className="flex justify-center flex-col w-full">
       {dropdown && (
         <div className="flex gap-[12px] h-[42px] mx-auto items-center w-full">
-          <div className="h-[40px] w-[40px]">
+          <div className="h-[40px] flex items-center justify-center bg-[#FFFFFF] w-[40px] border-none rounded-[4px]">
             <Image alt="comapnyImage" src={image} height={39} width={39} />
           </div>
-          <div className="w-[108px]">
+          <div className="w-[108px] ]">
             <p className="text-[#FFFFFF] text-[15px] font-bold-500 leading-[22px]">
               {name}
             </p>
@@ -60,7 +60,7 @@ export const NavigationItem = ({
         >
           <div className=" h-[20px] w-[20px] opacity-80">{iconPath}</div>
           <div>
-            <p className="text-[#FFFFFF] text-[14px] font-bold-500 leading-[20px]">
+            <p className="text-[#FFFFFF] text-opacity-80 text-[14px] font-medium leading-[20px]">
               {buttonTxt}
             </p>
           </div>
@@ -89,11 +89,11 @@ export const NavigationItem = ({
               </div>
             </div>
             <div className="flex flex-col gap-[2px] h-[42px] w-[101px]">
-              <p className="w-full text-bold-400 text-white text-[13px] leading-[16px]">
+              <p className="w-full font-normal text-white text-[13px] leading-[16px]">
                 {baseNavName}
               </p>
               <div className="w-[51px] h-[24px] ">
-                <p className="w-full text-bold-500 text-white text-[16px] leading-[24px]">
+                <p className="w-full font-medium text-white text-[16px] leading-[24px]">
                   {availableCredits}
                 </p>
               </div>
