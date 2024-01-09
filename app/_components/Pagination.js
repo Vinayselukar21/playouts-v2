@@ -7,7 +7,7 @@ export const Pagination = () => {
     <div className="flex flex-col items-center pt-[40px]  w-full">
       <div className="flex gap-[24px] w-[610px] h-[32px]">
         <button className="flex items-center gap-[6px] w-[100px] h-full pl-[6px] pr-[12px] py-[6px] border-[1px] border-[#D9D9D9] rounded-[4px] text-opacity-85 text-[#D9D9D9]">
-          <div className="h-[18px] w-[18px]">
+          <div className="flex items-center h-[18px] w-[18px]">
             <svg
               width="18"
               height="18"
@@ -41,7 +41,7 @@ export const Pagination = () => {
           <p className="font-medium text-[14px] text-[#4D4D4D] leading-[20px] ">
             Next
           </p>
-          <div className="h-[18px] w-[18px]">
+          <div className="flex items-center h-[18px] w-[18px]">
             <svg
               width="6"
               height="12"
